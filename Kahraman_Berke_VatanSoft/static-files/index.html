@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Öğrenci Kayıt Sistemi</h1>
+    <div class="container">
+      <form action="/register" method="POST">
+        <label for="Ad">Ad:</label>
+        <input type="text" name="Ad" required /><br />
+        <label for="Soyad">Soyad:</label>
+        <input type="text" name="Soyad" required /><br />
+        <label for="Email">Email:</label>
+        <input type="text" name="Email" required /><br />
+        <label for="Sifre">Sifre:</label>
+        <input type="password" name="Sifre" required /><br />
+        <button type="submit">Kayıt Ol</button>
+      </form>
+    </div>
+  </body>
+</html>
